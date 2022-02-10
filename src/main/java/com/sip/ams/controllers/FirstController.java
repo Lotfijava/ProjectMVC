@@ -18,5 +18,4 @@ public class FirstController {
 		return "home/affichage"; // Spring will look to a template
 	}
 
-
 }
