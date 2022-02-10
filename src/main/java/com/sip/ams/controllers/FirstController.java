@@ -1,5 +1,4 @@
 package com.sip.ams.controllers;
-
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -7,8 +6,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class FirstController {
 
 	@RequestMapping("/info")
-	public String info() {
+	public String info() 
+	{
 		return "home/info"; // Spring will look to a template
 	}
+	
+	
+	@RequestMapping("/affichage")
+	public String affichage() 
+	{
+		return "home/affichage"; // Spring will look to a template
+	}
+
 
 }
